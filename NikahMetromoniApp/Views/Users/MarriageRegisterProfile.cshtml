@@ -1,0 +1,83 @@
+﻿@{
+    ViewBag.Title = "MarriageRegisterProfile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var defaultUrl = "/Content/images/default-thumbnail.jpg";
+
+    var model = ViewBag.Profile;
+    var imageUrl = model!= null ? !string.IsNullOrEmpty(model.ImageUrl) ? model.ImageUrl : defaultUrl : defaultUrl;
+
+    var model1= ViewBag.SummaryModel;
+    var personalId = model1 != null ? model1.RequestId : "";
+    var name = model1 != null ? model1.FirstName + " " + model1.LastName: "";
+    var age = model1 != null ? model1.Age : "";
+    var gender = model1 != null ? model1.Gender : "";
+    var phoneNumber = model1 != null ? model1.PhoneNumber : "";
+    var religion = model1 != null ? model1.Religion : "";
+    var divisionId = model1 != null ? model1.DivisionName : "";
+    var districtId = model1 != null ? model1.CityName : "";
+    var upozilaId = model1 != null ? model1.AreaName : "";
+}
+
+<div class="banner-style">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="breadcrumbs">
+                    <p style="text-align: center; font-size: 28px; font-weight: 600; margin-top: 132px; color: white;">----------PROFILE DETAILS----------</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+<br />
+
+<div class="col-lg-2 col-md-2 col-sm-1 col-xs-12"></div>
+<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <img src="@imageUrl" class="img-thumbnail img-fluid" id="productImage" />
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-3 col-xs-12">
+            <p style="font-size: 20px; color: #86b535;">@personalId</p>
+            <hr />
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4">
+                        <p>Name</p>
+                        <p>Gender</p>
+                        <p>Religion</p>
+                        <p>Division</p>
+                        <p>District</p>
+                        <p>Area</p>
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-5 col-xs-5">
+                        <p>@name</p>
+                        <p>@gender</p>
+                        <p>@religion</p>
+                        <p>@divisionId</p>
+                        <p>@districtId</p>
+                        <p>@upozilaId</p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
+                        <br />
+                        <br />
+                        <a href="@Url.Action("Compose","MailBox", new {pid=@personalId})"><i class="fa fa-envelope-o fa-2x" title="Send Email" style="color: #777;"></i></a>
+                        <br />
+                        <br />
+                    </div>
+                    </div>
+                </div>
+           
+        </div>
+    </div>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+   
+</div>
+<div class="col-lg-1 col-md-1 col-sm-1 col-xs-12">
+    <br />
+    <br />
+    <br />
+</div>
+

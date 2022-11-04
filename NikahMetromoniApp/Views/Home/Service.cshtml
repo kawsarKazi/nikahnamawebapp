@@ -1,0 +1,96 @@
+﻿@{
+    ViewBag.Title = "Service";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="banner-style">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="breadcrumbs">
+                    <p style="text-align: center; font-size: 28px; font-weight: 600; margin-top: 132px; color: white;">----------SERVICES----------</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br/>
+<br/>
+<section class="my 5">
+
+    <div class="py-5">
+        <h2 class="text-center">Services</h2>
+        <br/>
+        
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="panel panel-default">
+                    <img class="panel-heading" src="~/Content/images/666.jpg" alt="Card image" style="width: 100%; height: 400px;">
+                    <div class="panel-body">
+                        <h4>Find Partner</h4>
+                        <p class="panel-footer">Marriage certificate is an official statement that two people are married. In most jurisdictions, a marriage certificate is issued by a government official only after the civil registration of the marriage.</p>
+                        <a href="@Url.Action("Search","Users")" class="btn btn-success">See more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="panel panel-default">
+                    <img class="panel-heading" src="~/Content/images/333.jpg" alt="Card image" style="width: 100%; height: 400px;">
+                    <div class="panel-body">
+                        <h4>Find Marriage Registrar</h4>
+                        <p class="panel-footer">Divorce canceling or reorganizing of the legal duties and responsibilities of marriage, thus dissolving the bonds of matrimony between a married couple under the rule of law of the particular country or state. </p>
+                        <a href="@Url.Action("Search","Users", new {userRole= "Marriage Register"})" class="btn btn-success">See more</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="panel panel-default">
+                    <img class="panel-heading" src="~/Content/images/1111.jpg" alt="Card image" style="width: 100%; height: 400px;">
+                    <div class="panel-body">
+                        <h4>Legal Advice</h4>
+                        <p class="panel-footer">Legal advice is the giving of a professional or formal opinion regarding the substance or procedure of the law in relation to a particular factual situation. <br /> Contact for Marriage,Divorce & any legal advice </p>
+                        <a href="#" class="btn btn-success">See more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<br/>
+<br/>
+<br/>
+<div class="footer-dark">
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="@Url.Action("Search","Users")">Find Partner</a></li>
+                        <li><a href="@Url.Action("Search","Users", new {userRole= "Marriage Register"})">Find Marriage Registrar</a></li>
+                        <li><a href="#">Legal Advice</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="@Url.Action("About")">About</a></li>
+                        <li><a href="@Url.Action("Contact")">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 item text">
+                    <h3>Company Name</h3>
+                    <p>The NIKAH MATRIMONY Registrar is the name of an office appointed by the government,(popularly known as the Kazi) has the authority to register marriages in Bangladesh</p>
+                </div>
+                <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+            </div>
+            <p class="copyright">NIKAH MATRIMONY © 2021</p>
+        </div>
+    </footer>
+</div>

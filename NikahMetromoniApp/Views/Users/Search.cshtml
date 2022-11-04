@@ -1,0 +1,215 @@
+﻿@model NikahMetromoniApp.Models.SearchViewModel
+@{
+    ViewBag.Title = "Search";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var role = ViewBag.UserRole;
+}
+
+<div class="banner-style">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="breadcrumbs">
+                    <p style="text-align: center; font-size: 28px; font-weight: 600; margin-top: 132px; color: white;">----------SEARCH PROFILE----------</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br/>
+<br/>
+<div class="container">
+    @using (Html.BeginForm("Search", "Users", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        <fieldset>
+            <div class="row">
+            <div class="col-lg-offset-2 col-md-offset-2 col-lg-8 col-md-8 col-sm-10 col-xs-12 col-lg-offset-2 col-md-offset-2">
+            <div class="panel panel-default">
+            <div class="panel-heading"><h4 class="panel-title" style="color: #00a661; font-size: 18px;">Search</h4></div>
+            <div class="panel-body">
+            <div class="row form-group groom_div">
+                <label class="col-md-4 control-label" style="text-align: right">Looking for</label>
+                <div class="col-md-6 selectContainer">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                        <select id="UserRole" name="UserRole" class="form-control selectpicker">
+                            @if (!string.IsNullOrEmpty(role) && role== "Marriage Register")
+                            {
+                                <option value="Bride">Bride</option>
+                                <option value="Grooms">Grooms</option>
+                            }
+                            else
+                            {
+                                <option value="Bride">Bride</option>
+                                <option value="Grooms">Grooms</option>
+                                <option value="Marriage Register">Marriage Register</option>
+                            }
+                            
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            
+            <br />
+            
+
+            
+
+            <div class="row form-group location">
+                <label class="col-md-4 control-label" style="text-align: right">City</label>
+                <div class="col-md-6 selectContainer">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                        @* @Html.DropDownListFor(model => model.DistrictId, null, "", new { @class = "form-control show-tick" })*@
+                        <select id="DistrictId" name="DistrictId" class="form-control selectpicker"></select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row form-group location">
+                <label class="col-md-4 control-label" style="text-align: right">Area</label>
+                <div class="col-md-6 selectContainer">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                        @*@Html.DropDownListFor(model => model.UpozilaId, null, "", new { @class = "form-control show-tick" })*@
+                        <select id="UpozilaId" name="UpozilaId" class="form-control selectpicker"></select>
+                    </div>
+                </div>
+            </div>
+            <input type="hidden" id="hiddenRole" value="@ViewBag.UserRole"/>
+            <div class="form-group">
+                <label class="col-md-4 control-label"></label>
+                <div class="col-md-6">
+                    <br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button type="submit" class="btn btn-warning">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSearch <span class="glyphicon glyphicon-send"></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</button>
+                </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+        </fieldset>
+            }
+    </div>
+
+@section Scripts {
+
+    <script src="~/Scripts/Forms/registration.js"></script>
+    @*<script>
+        $(document).ready(function() {
+            $("#AgeFrom").select2();
+            $("#AgeTo").select2();
+        })
+    </script>*@
+    <script>
+        $(document).ready(function () {
+            $("#DistrictId").select2();
+            $("#UpozilaId").select2();
+            getDistricts();
+
+            function getUrlVars() {
+                var vars = [], hash;
+                var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+                for (var i = 0; i < hashes.length; i++) {
+                    hash = hashes[i].split('=');
+                    vars.push(hash[0]);
+                    vars[hash[0]] = hash[1];
+                }
+                return vars;
+            }
+
+
+
+            var a = getUrlVars();
+
+            var role = a["userRole"];
+            if (role != null && role != "") {
+                var r = role.split("%20");
+                if (r[0] === 'Marriage') {
+                    $("#UserRole").val("Marriage Register");
+                    $(".location").show();
+                    $(".groom_div").hide();
+                } else {
+                    $("#UserRole").val("Bride");
+                    $(".groom_div").show();
+                    $(".location").hide();
+                }
+            } else {
+                var user2 = $("#UserRole").val();
+                if (user2 === 'Marriage Register') {
+                    $(".location").show();
+                    $(".groom_div").hide();
+                } else {
+                    $(".groom_div").show();
+                    $(".location").hide();
+                }
+            }
+
+            
+        });
+
+        $("#UserRole").change(
+            function () {
+
+                var user = $("#UserRole").val();
+                if (user === 'Marriage Register') {
+                    $(".location").show();
+                    $(".groom_div").hide();
+                } else {
+                    $(".groom_div").show();
+                    $(".location").hide();
+                }
+            });
+
+
+   
+          
+
+        function getDistricts() {
+            $.get("/api/Locations/District", function (data) {
+                var $el = $("#DistrictId");
+                $el.empty(); // remove old options
+                $el.append($("<option></option>")
+                    .attr("value", '').text(''));
+                $.each(data, function (value, key) {
+                    $el.append($('<option>', {
+                        value: key.id,
+                        text: key.nameEnglish
+                    }));
+                });
+            });
+        }
+
+        $(document.body).on("change", "#DistrictId", function () {
+
+            // Refress All Dropdown
+            $("#UpozilaId").val(null).trigger('change');
+
+            var districtId = $("#DistrictId").val();
+            if (districtId > 0) {
+                $.ajax({
+                    type: "GET",
+                    url: "/api/Locations/Upozila",
+                    contentType: "application/json; charset=utf-8",
+                    data: { districtId: districtId },
+                    success: function (data) {
+                        var $el = $("#UpozilaId");
+                        $el.empty(); // remove old options
+                        $el.append($("<option></option>")
+                            .attr("value", '').text(''));
+                        $.each(data, function (value, key) {
+                            $el.append($('<option>', {
+                                value: key.id,
+                                text: key.nameEnglish
+                            }));
+                        });
+                    }
+                });
+            }
+        });
+
+   
+    </script>
+}

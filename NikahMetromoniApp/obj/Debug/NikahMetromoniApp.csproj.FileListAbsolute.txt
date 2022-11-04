@@ -1,0 +1,517 @@
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\NikahMetromoniApp.dll.config
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\NikahMetromoniApp.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\NikahMetromoniApp.pdb
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\csc.exe
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\csc.exe.config
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\csc.rsp
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\csi.exe
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\csi.exe.config
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\csi.rsp
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.AppContext.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Collections.Immutable.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Console.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.IO.Compression.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.IO.FileSystem.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.IO.Pipes.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Reflection.Metadata.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Security.AccessControl.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Security.Claims.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.ValueTuple.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Xml.XPath.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\vbc.exe
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\vbc.exe.config
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\vbc.rsp
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\VBCSCompiler.exe
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\VBCSCompiler.exe.config
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Antlr3.Runtime.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\EntityFramework.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\EntityFramework.SqlServer.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.Google.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Web.Infrastructure.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Newtonsoft.Json.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Owin.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Helpers.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Mvc.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Optimization.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Razor.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.WebPages.Deployment.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.WebPages.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.WebPages.Razor.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\WebGrease.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Helpers.xml
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Mvc.xml
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Optimization.xml
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Razor.xml
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.WebPages.xml
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.WebPages.Deployment.xml
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.WebPages.Razor.xml
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Newtonsoft.Json.xml
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Antlr3.Runtime.pdb
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\EntityFramework.xml
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\EntityFramework.SqlServer.xml
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.xml
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.xml
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.Google.xml
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.csprojAssemblyReference.cache
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.csproj.CoreCompileInputs.cache
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.csproj.CopyComplete
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.pdb
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddColumnToUsersTable.resources
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.csproj.GenerateResource.cache
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Net.Http.Formatting.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Http.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Http.WebHost.dll
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Net.Http.Formatting.xml
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Http.xml
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Http.WebHost.xml
+D:\Personal Work\Projects\Study Projects\Shamim Metromoni Nikah\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddColumnToUsersTable1.resources
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\NikahMetromoniApp.dll.config
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\NikahMetromoniApp.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\NikahMetromoniApp.pdb
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\csc.exe
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\csc.exe.config
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\csc.rsp
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\csi.exe
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\csi.exe.config
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\csi.rsp
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.AppContext.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Collections.Immutable.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Console.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.IO.Compression.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.IO.FileSystem.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.IO.Pipes.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Reflection.Metadata.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Security.AccessControl.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Security.Claims.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.ValueTuple.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Xml.XPath.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\vbc.exe
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\vbc.exe.config
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\vbc.rsp
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\VBCSCompiler.exe
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\VBCSCompiler.exe.config
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Antlr3.Runtime.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\EntityFramework.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\EntityFramework.SqlServer.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.Google.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Web.Infrastructure.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Newtonsoft.Json.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Owin.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Net.Http.Formatting.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Helpers.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Http.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Http.WebHost.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Mvc.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Optimization.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Razor.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.WebPages.Deployment.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.WebPages.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.WebPages.Razor.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\WebGrease.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Net.Http.Formatting.xml
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Http.xml
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Http.WebHost.xml
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Helpers.xml
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Mvc.xml
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Optimization.xml
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Razor.xml
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.WebPages.xml
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.WebPages.Deployment.xml
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.WebPages.Razor.xml
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Newtonsoft.Json.xml
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Antlr3.Runtime.pdb
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\EntityFramework.xml
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\EntityFramework.SqlServer.xml
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.xml
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.xml
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.Google.xml
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.csprojAssemblyReference.cache
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddColumnToUsersTable.resources
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddColumnToUsersTable1.resources
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.csproj.GenerateResource.cache
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.csproj.CoreCompileInputs.cache
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.csproj.CopyComplete
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.dll
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.pdb
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddColumnInUsersTable.resources
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddIntroductionBioTableToDatabase.resources
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.RenameColoumToIntroductionBio.resources
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddFamilyInformationTableToDatabase.resources
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddSpiritualAndSocialBackgroundTableToDatabase.resources
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddProfilePictureTableToDatabase.resources
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddEducationAndCareerTableToDatabase.resources
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddPhysicalAttributeTableToDatabase.resources
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddPresentAddressTableToDatabase.resources
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddPersonalDetailTableToDatabase.resources
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddHobbyAndInterestTableToDatabase.resources
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddColumnToHobbyAndInterestTable.resources
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddMailBoxTableToDatabase.resources
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddOtpStoreTableToDatabase.resources
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddColumnToUsersTable2.resources
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddColumnsInUsersTable.resources
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddMarriageRegisterDocumentTable.resources
+D:\Professional Work\Nikah\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddContactRequestTable.resources
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\NikahMetromoniApp.dll.config
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\NikahMetromoniApp.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\NikahMetromoniApp.pdb
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\csc.exe
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\csc.exe.config
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\csc.rsp
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\csi.exe
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\csi.exe.config
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\csi.rsp
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.AppContext.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Collections.Immutable.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Console.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.IO.Compression.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.IO.FileSystem.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.IO.Pipes.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Reflection.Metadata.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Security.AccessControl.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Security.Claims.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.ValueTuple.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Xml.XPath.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\vbc.exe
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\vbc.exe.config
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\vbc.rsp
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\VBCSCompiler.exe
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\VBCSCompiler.exe.config
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\Antlr3.Runtime.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\EntityFramework.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\EntityFramework.SqlServer.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.Google.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Web.Infrastructure.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\Newtonsoft.Json.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\Owin.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\System.Net.Http.Formatting.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Helpers.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Http.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Http.WebHost.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Mvc.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Optimization.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Razor.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.WebPages.Deployment.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.WebPages.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.WebPages.Razor.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\WebGrease.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\System.Net.Http.Formatting.xml
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Http.xml
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Http.WebHost.xml
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Helpers.xml
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Mvc.xml
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Optimization.xml
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Razor.xml
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.WebPages.xml
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.WebPages.Deployment.xml
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.WebPages.Razor.xml
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\Newtonsoft.Json.xml
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\Antlr3.Runtime.pdb
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\EntityFramework.xml
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\EntityFramework.SqlServer.xml
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.xml
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.xml
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.Google.xml
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.csprojAssemblyReference.cache
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddColumnToUsersTable.resources
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddColumnToUsersTable1.resources
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddColumnInUsersTable.resources
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddIntroductionBioTableToDatabase.resources
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.RenameColoumToIntroductionBio.resources
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddFamilyInformationTableToDatabase.resources
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddSpiritualAndSocialBackgroundTableToDatabase.resources
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddProfilePictureTableToDatabase.resources
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddEducationAndCareerTableToDatabase.resources
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddPhysicalAttributeTableToDatabase.resources
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddPresentAddressTableToDatabase.resources
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddPersonalDetailTableToDatabase.resources
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddHobbyAndInterestTableToDatabase.resources
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddColumnToHobbyAndInterestTable.resources
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddMailBoxTableToDatabase.resources
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddOtpStoreTableToDatabase.resources
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddColumnToUsersTable2.resources
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddColumnsInUsersTable.resources
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddMarriageRegisterDocumentTable.resources
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddContactRequestTable.resources
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.csproj.GenerateResource.cache
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.csproj.CoreCompileInputs.cache
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.csproj.CopyComplete
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.dll
+D:\Professional Work\Nikah\New folder\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.pdb
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\NikahMetromoniApp.dll.config
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\NikahMetromoniApp.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\NikahMetromoniApp.pdb
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\csc.exe
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\csc.exe.config
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\csc.rsp
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\csi.exe
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\csi.exe.config
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\csi.rsp
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.AppContext.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Collections.Immutable.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Console.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.IO.Compression.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.IO.FileSystem.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.IO.Pipes.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Reflection.Metadata.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Security.AccessControl.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Security.Claims.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.ValueTuple.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Xml.XPath.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\vbc.exe
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\vbc.exe.config
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\vbc.rsp
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\VBCSCompiler.exe
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\roslyn\VBCSCompiler.exe.config
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\Antlr3.Runtime.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\EntityFramework.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\EntityFramework.SqlServer.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.Google.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Web.Infrastructure.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\Newtonsoft.Json.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\Owin.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\System.Net.Http.Formatting.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Helpers.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Http.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Http.WebHost.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Mvc.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Optimization.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Razor.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.WebPages.Deployment.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.WebPages.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.WebPages.Razor.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\WebGrease.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\System.Net.Http.Formatting.xml
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Http.xml
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Http.WebHost.xml
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Helpers.xml
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Mvc.xml
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Optimization.xml
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.Razor.xml
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.WebPages.xml
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.WebPages.Deployment.xml
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\System.Web.WebPages.Razor.xml
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\Newtonsoft.Json.xml
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\Antlr3.Runtime.pdb
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\EntityFramework.xml
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\EntityFramework.SqlServer.xml
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.xml
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.xml
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.Google.xml
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.csprojAssemblyReference.cache
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddColumnToUsersTable.resources
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddColumnToUsersTable1.resources
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddColumnInUsersTable.resources
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddIntroductionBioTableToDatabase.resources
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.RenameColoumToIntroductionBio.resources
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddFamilyInformationTableToDatabase.resources
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddSpiritualAndSocialBackgroundTableToDatabase.resources
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddProfilePictureTableToDatabase.resources
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddEducationAndCareerTableToDatabase.resources
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddPhysicalAttributeTableToDatabase.resources
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddPresentAddressTableToDatabase.resources
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddPersonalDetailTableToDatabase.resources
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddHobbyAndInterestTableToDatabase.resources
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddColumnToHobbyAndInterestTable.resources
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddMailBoxTableToDatabase.resources
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddOtpStoreTableToDatabase.resources
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddColumnToUsersTable2.resources
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddColumnsInUsersTable.resources
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddMarriageRegisterDocumentTable.resources
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddContactRequestTable.resources
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.csproj.GenerateResource.cache
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.csproj.CoreCompileInputs.cache
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.csproj.CopyComplete
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.dll
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.pdb
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddMarriageAndDivorceTable.resources
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddColumn.resources
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddCOlumnInIdentity.resources
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddColumnInDivorceTable.resources
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.RemoveTabls.resources
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddColumnToRegistrationTable.resources
+D:\Professional Work\Kazi Kawsar\NikahMetromoniApp\NikahMetromoniApp\obj\Debug\NikahMetromoniApp.Migrations.AddColumnToDivorceTable.resources

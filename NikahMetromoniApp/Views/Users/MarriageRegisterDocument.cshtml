@@ -1,0 +1,127 @@
+﻿@model NikahMetromoniApp.Models.MarriageRegisterDocument
+@{
+    ViewBag.Title = "MarriageRegisterDocument";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var model1 = ViewBag.ProfilePictureModel;
+    var certificateUrl= model1 != null ? model1.CertificateUrl : "/Content/images/default-thumbnail.jpg";
+    var imageUrl = model1 != null ? model1.ImageUrl : "/Content/images/default-thumbnail.jpg";
+}
+<div class="banner-style">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="breadcrumbs">
+                    <p style="text-align: center; font-size: 28px; font-weight: 600; margin-top: 132px; color: white;">----------EDIT PROFILE----------</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+<br />
+
+@using (Html.BeginForm("MarriageRegisterDocument", "Users", FormMethod.Post))
+{
+    <div class="col-lg-3 col-md-3"></div>
+    <div class="col-lg-6 col-md-6 col-sm-10 col-xs-10">
+        <div class="panel panel-default">
+            <div class="panel-heading" style="color: #00a661; font-size: 18px;">Marriage Register Documents</div>
+            <div class="panel-body">
+                <table class="table tab-content table-bordered">
+                    <thead style="background-color: #E0DDD9">
+                        <tr>
+                            <th style="text-align: center;">Photo</th>
+                            <th style="text-align: center;">Certificate</th>
+                        </tr>
+
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style=" text-align: center">
+                                <img src="@imageUrl" class="img-thumbnail img-fluid" id="profileImage" height="200" width="250" />
+                                <br />
+                                <br />
+                                <input class="form-control" type="hidden" name="ImageUrl" id="ImageUrl" value="@imageUrl" />
+                                <input class="form-control" id="ImageUpload" name="Image" type="file" accept=".png, .jpg" />
+
+                            </td>
+                            <td style=" text-align: center">
+                                <img src="@certificateUrl" class="img-thumbnail img-fluid" id="certificateImage" height="200" width="250" />
+                                <br />
+                                <br />
+                                <input class="form-control" type="hidden" name="CertificateUrl" id="CertificateUrl" value="@certificateUrl" />
+                                <input class="form-control" id="CertificateUpload" name="Certificate" type="file" accept=".png, .jpg" />
+
+                            </td>
+
+                        </tr>
+                    </tbody>
+                </table>
+                <p style="font-weight: 600">@ViewBag.Message</p>
+
+
+                <div class="col-lg-6 col-md-6"></div>
+                <div class="col-lg-6 col-md-6">
+                    <input class="col-lg-3 col-md-2" id="Cancel" type="button" value="Cancel" style="margin-right: 4px; width: 22%;" />
+                    <input class="col-lg-3 col-md-2" type="submit" value="Save" style="margin-right: 4px; width: 18%;" />
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3"></div>
+    
+}
+
+@section scripts
+{
+    <script>
+        $("#ImageUpload").change(function() {
+            var element = this;
+            var formData = new FormData();
+            var totalFiles = element.files.length;
+            for (var i = 0; i < totalFiles; i++) {
+                var file = element.files[i];
+                formData.append('Photo', file);
+            }
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("UploadImage", "Users")',
+                dataType: 'json',
+                data: formData,
+                contentType: false,
+                processData: false
+
+            }).done(function(response) {
+                if (response.Success) {
+                    $("#ImageUrl").val(response.ImageUrl);
+                    $("#profileImage").attr("src", response.ImageUrl);
+                }
+            });
+        });
+
+        $("#CertificateUpload").change(function() {
+            var element = this;
+            var formData = new FormData();
+            var totalFiles = element.files.length;
+            for (var i = 0; i < totalFiles; i++) {
+                var file = element.files[i];
+                formData.append('Photo', file);
+            }
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("UploadImage", "Users")',
+                dataType: 'json',
+                data: formData,
+                contentType: false,
+                processData: false
+
+            }).done(function(response) {
+                if (response.Success) {
+                    $("#CertificateUrl").val(response.ImageUrl);
+                    $("#certificateImage").attr("src", response.ImageUrl);
+                }
+            });
+        });
+    </script>
+}

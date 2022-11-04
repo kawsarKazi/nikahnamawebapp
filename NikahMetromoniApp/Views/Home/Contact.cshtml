@@ -1,0 +1,84 @@
+﻿@model NikahMetromoniApp.Models.ContactRequest
+@{
+    ViewBag.Title = "Contact";
+}
+
+<div class="banner-style">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="breadcrumbs">
+                   <p style="text-align: center; font-size: 28px; font-weight: 600; margin-top: 132px; color: white;">----------CONTACT----------</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br/>
+<br/>
+<section class="my 5">
+    <div class="col-lg-4 col-md-4 col-sm-4"></div>
+    
+    <div class="col-lg-5 col-md-5 col-sm-5">
+    @using (Html.BeginForm("Contact", "Home", FormMethod.Post))
+    {
+        <br/>
+        <div class="form-group">
+            <label>Name</label>
+            <input type="text" required="required" name="Name" autocomplete="off" class="form-control" style="width: 100% !important;">
+        </div>
+        <div class="form-group">
+            <label>Email</label>
+            <input type="text" required="required" name="Email" autocomplete="off" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Phone Number</label>
+            <input type="text" required="required" name="Mobile" autocomplete="off" class="form-control">
+        </div>
+        <div class=" form-group">
+            <label>Your Message</label>
+            <textarea class="form-control" name="Message" required="required"> 
+				</textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+        <br/>
+        <br/>
+        <p style="font-weight: 600">@ViewBag.Message</p>
+
+    }
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3"></div>
+</section>
+
+<br />
+<br />
+<br />
+@*<div class="footer-dark" style="margin-bottom: -20px;">
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="@Url.Action("Search","Users")">Find Partner</a></li>
+                        <li><a href="@Url.Action("Search","Users", new {userRole= "Marriage Register"})">Find Marriage Registrar</a></li>
+                        <li><a href="#">Legal Advice</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="@Url.Action("About")">About</a></li>
+                        <li><a href="@Url.Action("Contact")">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 item text">
+                    <h3>Company Name</h3>
+                    <p>The NIKAH MATRIMONY Registrar is the name of an office appointed by the government,(popularly known as the Kazi) has the authority to register marriages in Bangladesh</p>
+                </div>
+                <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+            </div>
+            <p class="copyright">NIKAH MATRIMONY © 2021</p>
+        </div>
+    </footer>
+</div>*@

@@ -1,0 +1,193 @@
+﻿@model NikahMetromoniApp.Models.MarriageRegistration
+@{
+    ViewBag.Title = "Marriage Registration";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br/>
+<br/>
+<div class="row">
+    <div class="col-md-1 col-sm-1"></div>
+    <div class="col-md-10 col-sm-10">
+        <div class="panel panel-info">
+            <div class="panel-heading">Marriage Registration<a class="pull-right btn btn-sm btn-info" href="@Url.Action("MarriageList","Registrations")">Go to List</a></div>
+            <div class="panel-body">
+                @using (Html.BeginForm("MarriageRegistration","Registrations", FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken()
+                    <div class="col-md-12 col-sm-12">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.GroomName, "Groom Name*", htmlAttributes: new { @class = "control-label" })
+                                @Html.EditorFor(model => model.GroomName, new { htmlAttributes = new { @class = "form-control", @tabindex = "1", @required = "required" } })
+                                @Html.ValidationMessageFor(model => model.GroomName, "", new { @class = "text-danger", @id = "HrmRegionIdVal" })
+                            </div>
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.GroomFatherName, "Groom Father Name *", htmlAttributes: new { @class = "control-label" })
+                                @Html.EditorFor(model => model.GroomFatherName, new { htmlAttributes = new { @class = "form-control", @tabindex = "2", @required = "required" } })
+                                @Html.ValidationMessageFor(model => model.GroomFatherName, "", new { @class = "text-danger", @id = "HrmOfficeIdVal" })
+                            </div>
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.GroomIdentity, "NID/Birth/Passport*", htmlAttributes: new { @class = "control-label" })
+                                @Html.EditorFor(model => model.GroomIdentity, new { htmlAttributes = new { @class = "form-control", @tabindex = "3", @required = "required" } })
+                                @Html.ValidationMessageFor(model => model.GroomIdentity, "", new { @class = "text-danger", @id = "HrmDepartmentIdIdVal" })
+                            </div>
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.RegisterVolumeNo, "Register Volume No*", htmlAttributes: new { @class = "control-label" })
+                                @Html.EditorFor(model => model.RegisterVolumeNo, new { htmlAttributes = new { @class = "form-control", @tabindex = "4", @required = "required" } })
+                                @Html.ValidationMessageFor(model => model.RegisterVolumeNo, "", new { @class = "text-danger", @id = "NameVal" })
+                            </div>
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.RegistrationDate, "Registration Date*", htmlAttributes: new { @class = "control-label" })
+                                @Html.EditorFor(model => model.RegistrationDate, new { htmlAttributes = new { @class = "form-control", @tabindex = "4", @required = "required", @type="date" } })
+                                @Html.ValidationMessageFor(model => model.RegistrationDate, "", new { @class = "text-danger", @id = "NameVal" })
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Upload Files</label>
+                                <input id="fileInput" class="form-control" type="file" accept=".pdf" tabindex="9">
+                            </div>
+                            <div class="form-group">
+                                <table class="table" id="FilesList" style="visibility:hidden">
+                                    <tr style="background-color:goldenrod">
+                                        <th>
+                                            Attachment(s)
+                                        </th>
+                                        <th>
+                                            Action
+                                        </th>
+                                    </tr>
+                                </table>
+                                <input type="button" hidden id="btnupload" value="Upload" style="float:right" />
+                            </div>
+
+
+                            <div class="form-group">
+                                @Html.HiddenFor(c => c.Id)
+                                @Html.HiddenFor(c => c.DownloadPermission)
+                                <input id="btnSubmit" class="btn btn-primary" type="submit" style="margin-top: 24px;" value="Submit" tabindex="10" />
+                            </div>
+                            <br />
+                            <p style="font-size: 18px; font-weight: bold">@ViewBag.Message</p>
+                        </div>
+
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.BrideName, "Bride Name*", htmlAttributes: new { @class = "control-label" })
+                                @Html.EditorFor(model => model.BrideName, new { htmlAttributes = new { @class = "form-control", @tabindex = "5", @required = "required" } })
+                                @Html.ValidationMessageFor(model => model.BrideName, "", new { @class = "text-danger", @id = "HrmRegionIdVal" })
+                            </div>
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.BrideFatherName, "Bride Father Name*", htmlAttributes: new { @class = "control-label" })
+                                @Html.EditorFor(model => model.BrideFatherName, new { htmlAttributes = new { @class = "form-control", @tabindex = "6", @required = "required" } })
+                                @Html.ValidationMessageFor(model => model.BrideFatherName, "", new { @class = "text-danger", @id = "HrmOfficeIdVal" })
+                            </div>
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.BrideIdentity, "NID/Birth/Passport*", htmlAttributes: new { @class = "control-label" })
+                                @Html.EditorFor(model => model.BrideIdentity, new { htmlAttributes = new { @class = "form-control", @tabindex = "7", @required = "required" } })
+                                @Html.ValidationMessageFor(model => model.BrideIdentity, "", new { @class = "text-danger", @id = "HrmDepartmentIdIdVal" })
+                            </div>
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.PageNo, "Page No*", htmlAttributes: new { @class = "control-label" })
+                                @Html.EditorFor(model => model.PageNo, new { htmlAttributes = new { @class = "form-control", @tabindex = "8", @required = "required" } })
+                                @Html.ValidationMessageFor(model => model.PageNo, "", new { @class = "text-danger", @id = "NameVal" })
+                            </div>
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.AmountOfDower, "Amount of Dower*", htmlAttributes: new { @class = "control-label" })
+                                @Html.EditorFor(model => model.AmountOfDower, new { htmlAttributes = new { @class = "form-control", @tabindex = "8", @required = "required" } })
+                                @Html.ValidationMessageFor(model => model.AmountOfDower, "", new { @class = "text-danger", @id = "NameVal" })
+                            </div>
+                        </div>
+
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+    <div class="col-md-1 col-sm-1"></div>
+</div>
+
+@section scripts
+{
+    <script src="~/Scripts/jquery.fancybox.js"></script>
+
+    <script>
+
+        var formdata = new FormData(); //FormData object
+
+        $(document).ready(function () {
+
+            $("#fileInput").on("change", function () {
+                var fileInput = document.getElementById('fileInput');
+                //Iterating through each files selected in fileInput
+                for (var i = 0; i < fileInput.files.length; i++) {
+
+                    var sfilename = fileInput.files[i].name;
+                    var srandomid = Math.random().toString(36).substring(7);
+
+                    formdata.append(sfilename, fileInput.files[i]);
+
+                    var markup = "<tr style='background-color: goldenrod' id='" + srandomid + "'><td>" + sfilename + "</td><td><a href='#' onclick='DeleteFile(\"" + srandomid + "\",\"" + sfilename +
+                        "\")'><span class='glyphicon glyphicon-remove red'></span></a></td></tr>"; // Binding the file name
+                    $("#FilesList tbody").append(markup);
+
+                }
+                chkatchtbl();
+                $('#fileInput').val('');
+
+                formdata.append('identity', $('#GroomIdentity').val() + "-" + $('#BrideIdentity').val());
+                $.ajax({
+                    url: '/Utilites/Upload',
+                    type: "POST",
+                    contentType: false, // Not to set any content header
+                    processData: false, // Not to process data
+                    data: formdata,
+                    async: false,
+                    success: function (result) {
+                        if (result != "") {
+                            console.log(result);
+                        }
+                    },
+                    error: function (err) {
+                        alert(err.statusText);
+                    }
+                });
+
+            });
+
+            $("#btnupload").click(function () {
+                formdata.append('identity', "marriage");
+                $.ajax({
+                    url: '/Utilites/Upload',
+                    type: "POST",
+                    contentType: false, // Not to set any content header
+                    processData: false, // Not to process data
+                    data: formdata,
+                    async: false,
+                    success: function (result) {
+                        if (result != "") {
+                            console.log(result);
+                        }
+                    },
+                    error: function (err) {
+                        alert(err.statusText);
+                    }
+                });
+            });
+        });
+        function DeleteFile(Fileid, FileName) {
+            formdata.delete(FileName);
+            $("#" + Fileid).remove();
+            chkatchtbl();
+        }
+        function chkatchtbl() {
+            if ($('#FilesList tr').length > 1) {
+                $("#FilesList").css("visibility", "visible");
+            } else {
+                $("#FilesList").css("visibility", "hidden");
+            }
+        }
+    </script>
+
+    
+}
+

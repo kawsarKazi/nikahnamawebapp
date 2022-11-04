@@ -1,0 +1,323 @@
+﻿@model NikahMetromoniApp.Models.RegistrationViewModel
+@{
+    ViewBag.Title = "Registration";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="banner-style">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="breadcrumbs">
+                    <p style="text-align: center; font-size: 28px; font-weight: 600; margin-top: 132px; color: white;">----------REGISTRATION----------</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+<br />
+<div class="container">
+    @using (Html.BeginForm("RegistrationNext2", "Account", FormMethod.Post, new { role = "form" }))
+    {
+        @Html.AntiForgeryToken()
+        <div class="row">
+            <div class="col-lg-offset-2 col-md-offset-2 col-lg-8 col-md-8 col-sm-10 col-xs-12 col-lg-offset-2 col-md-offset-2">
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="color: #00a661; font-size: 18px;">Registration</div>
+                    <div class="panel-body">
+                        @if (Model != null)
+                        {
+                            <div class="form-group" style="visibility: hidden">
+                                <input type="text" name="UserRole" value="@Model.UserRole" />
+                                <input type="text" name="FirstName" value="@Model.FirstName" />
+                                <input type="text" name="LastName" value="@Model.LastName" />
+                                <input type="text" name="Gender" value="@Model.Gender" />
+                                <input type="email" name="Email" value="@Model.Email" />
+                                <input type="text" name="PhoneNumber" value="@Model.PhoneNumber" />
+                                <input type="password" name="Password" value="@Model.Password" />
+                                <input type="password" name="ConfirmPassword" value="@Model.ConfirmPassword" />
+                            </div>
+                        }
+                        @if (Model != null && Model.UserRole == "Bride/Grooms")
+                        {
+
+                            <div class="row form-group">
+                                <label class="col-md-3 control-label" style="text-align: right">Birthdate</label>
+                                <div class="col-md-4 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
+                                        <input name="BirthDate" type="date" class="form-control" required="required">
+                                    </div>
+                                </div>
+                                <div class="col-md-4 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                                        <select name="Age" class="form-control selectpicker" required="required">
+                                            <option value="">Select an Age</option>
+                                            @for (int i = 18; i < 71; i++)
+                                            {
+                                                <option value="@i">@i</option>
+                                            }
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-1"></div>
+                            </div>
+
+                            <div class="row form-group">
+                                <label class="col-md-3 control-label" style="text-align: right">Marital Status</label>
+                                <div class="col-md-4 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                                        <select name="MaritalStatus" class="form-control selectpicker" required="required">
+                                            <option value="">Select</option>
+                                            <option value="Single">Single</option>
+                                            <option value="Widow">Widow</option>
+                                            <option value="Divorced">Divorced</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                                        <select name="HigherDegree" class="form-control selectpicker">
+                                            <option value="">Select Education</option>
+                                            <option value="SSC">SSC</option>
+                                            <option value="HSC">HSC</option>
+                                            <option value="Honnor's">Honnor's</option>
+                                            <option value="BSc">BSc</option>
+                                            <option value="MBBS">MBBS</option>
+                                            <option value="Master's">Master's</option>
+                                            <option value="MSc">MSc</option>
+                                            <option value="PhD">PhD</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-1"></div>
+                            </div>
+                            <div class="row form-group">
+                                <label class="col-md-3 control-label" style="text-align: right">Height</label>
+                                <div class="col-md-4 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                                        <select name="Height" class="form-control selectpicker">
+                                            <option value="">Select</option>
+                                            <option value="4&#8221">4&#8221</option>
+                                            <option value="4'1&#8221">4'1&#8221</option>
+                                            <option value="4'2&#8221">4'2&#8221</option>
+                                            <option value="4'3&#8221">4'3&#8221</option>
+                                            <option value="4'4&#8221">4'4&#8221</option>
+                                            <option value="4'5&#8221">4'5&#8221</option>
+                                            <option value="4'6&#8221">4'6&#8221</option>
+                                            <option value="4'7&#8221">4'7&#8221</option>
+                                            <option value="4'8&#8221">4'8&#8221</option>
+                                            <option value="4'9&#8221">4'9&#8221</option>
+                                            <option value="4'10&#8221">4'10&#8221</option>
+                                            <option value="4'11&#8221">4'11&#8221</option>
+                                            <option value="5&#8221">5&#8221</option>
+                                            <option value="5'1&#8221">5'1&#8221</option>
+                                            <option value="5'2&#8221">5'2&#8221</option>
+                                            <option value="5'3&#8221">5'3&#8221</option>
+                                            <option value="5'4&#8221">5'4&#8221</option>
+                                            <option value="5'5&#8221">5'5&#8221</option>
+                                            <option value="5'6&#8221">5'6&#8221</option>
+                                            <option value="5'7&#8221">5'7&#8221</option>
+                                            <option value="5'8&#8221">5'8&#8221</option>
+                                            <option value="5'9&#8221">5'9&#8221</option>
+                                            <option value="5'10&#8221">5'10&#8221</option>
+                                            <option value="5'11&#8221">5'11&#8221</option>
+                                            <option value="6&#8221">6&#8221</option>
+                                            <option value="6'1&#8221">6'1&#8221</option>
+                                            <option value="6'2&#8221">6'2&#8221</option>
+                                            <option value="6'3&#8221">6'3&#8221</option>
+                                            <option value="6'4&#8221">6'4&#8221</option>
+                                            <option value="6'5&#8221">6'5&#8221</option>
+                                            <option value="6'6&#8221">6'6&#8221</option>
+                                            <option value="6'7&#8221">6'7&#8221</option>
+                                            <option value="6'8&#8221">6'8&#8221</option>
+                                            <option value="6'9&#8221">6'9&#8221</option>
+                                            <option value="6'10&#8221">6'10&#8221</option>
+                                            <option value="6'11&#8221">6'11&#8221</option>
+                                            <option value="7&#8221">7&#8221</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                                        <select name="Complexion" class="form-control selectpicker">
+                                            <option value="">Complexion</option>
+                                            <option value="Medium">Medium</option>
+                                            <option value="Fair">Fair</option>
+                                            <option value="Whitish">Whitish</option>
+                                            <option value="Dark">Dark</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-1"></div>
+                            </div>
+                            <div class="row form-group">
+                                <label class="col-md-3 control-label" style="text-align: right">Disability</label>
+                                <div class="col-md-4 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                                        <select name="Disability" class="form-control selectpicker" required="required">
+                                            <option value="No">No</option>
+                                            <option value="Yes">Yes</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                                        <select name="BloodGroup" class="form-control selectpicker">
+                                            <option value="">Blood Group</option>
+                                            <option value="A+">A+</option>
+                                            <option value=" A-"> A-</option>
+                                            <option value="B+">B+</option>
+                                            <option value="B-">B-</option>
+                                            <option value="O+">O+</option>
+                                            <option value="O-">O-</option>
+                                            <option value="AB+">AB+</option>
+                                            <option value="AB-">AB-</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-1"></div>
+                            </div>
+
+                        }
+
+                        <div class="row form-group">
+                            <label class="col-md-3 control-label" style="text-align: right">Religion</label>
+                            <div class="col-md-4 inputGroupContainer">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                                    <select name="Religion" class="form-control selectpicker" required="required">
+                                        <option value="">Select</option>
+                                        <option value="Muslim">Muslim</option>
+                                        <option value="Christian">Christian</option>
+                                        <option value="Hinduism">Hinduism</option>
+                                        <option value="Buddhism">Buddhism</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-4 inputGroupContainer">
+                                @if (Model != null && Model.UserRole == "Bride/Grooms")
+                                {
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                                        <select name="Profession" class="form-control selectpicker" required="required">
+                                            <option value="">Profession</option>
+                                            <option value="Not Working">Not Working</option>
+                                            <option value="Business">Business</option>
+                                            <option value="Private">Private</option>
+                                            <option value="Government">Government</option>
+                                        </select>
+                                    </div>
+                                }
+                            </div>
+                            <div class="col-md-1"></div>
+                        </div>
+                        <div class="row form-group">
+                            <label class="col-md-3 control-label" style="text-align: right">Nationality</label>
+                            <div class="col-md-4 inputGroupContainer">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                                    <select name="Nationality" class="form-control selectpicker" required="required">
+                                        <option value="">Select</option>
+                                        <option value="Bangladeshi">Bangladeshi</option>
+                                        <option value="Indian">Indian</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-4 inputGroupContainer">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                                    <select name="DivisionName" class="form-control selectpicker">
+                                        <option value="">Division</option>
+                                        <option value="Dhaka">Dhaka</option>
+                                        <option value="Chittagong">Chittagong</option>
+                                        <option value="Sylhet">Sylhet</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-1"></div>
+                        </div>
+
+
+                    <div class="row form-group">
+                        <label class="col-md-3 control-label" style="text-align: right">City</label>
+                        <div class="col-md-4 inputGroupContainer">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                                <select name="CityName" class="form-control selectpicker">
+                                    <option value="">Select</option>
+                                    <option value="Dhaka">Dhaka</option>
+                                    <option value="Chittagong">Chittagong</option>
+                                    <option value="Sylhet">Sylhet</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4 inputGroupContainer">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                                <select name="AreaName" class="form-control selectpicker">
+                                    <option value="">Area</option>
+                                    <option value="Dhaka">Dhaka</option>
+                                    <option value="Chittagong">Chittagong</option>
+                                    <option value="Sylhet">Sylhet</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                    <div class="row form-group ">
+                        <label class="col-md-3 control-label" style="text-align: right">Verification OTP</label>
+                        <div class="col-md-8 selectContainer">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-phone"></i></span>
+                                <input name="Otp" placeholder="Enter Verification OTP" class="form-control" type="text" required="required">
+                            </div>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                        <div class="row form-group ">
+                            <label class="col-md-3 control-label" style="text-align: right">More about Me</label>
+                            <div class="col-md-8 selectContainer">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                    <input name="Description" placeholder="More About Me" class="form-control" type="text">
+                                </div>
+                            </div>
+                            <div class="col-md-1"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-3 control-label"></label>
+                            <div class="col-md-8">
+                                <br>
+                                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button type="submit" class="btn btn-warning">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRegistration <span class="glyphicon glyphicon-send"></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</button>
+                            </div>
+                            <div class="col-md-1"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+
+    @*<script src="~/Scripts/Forms/registration.js"></script>*@
+
+
+}
+

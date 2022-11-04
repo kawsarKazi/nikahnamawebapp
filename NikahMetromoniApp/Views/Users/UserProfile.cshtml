@@ -1,0 +1,101 @@
+﻿@using Microsoft.AspNet.Identity
+@{
+    ViewBag.Title = "UserProfile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var imageUrl = "/Content/images/default-thumbnail.jpg";
+    var role = ViewBag.UserRole;
+}
+
+<style>
+    body {
+        color: #777;
+        
+    }
+</style>
+<div class="banner-style">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="breadcrumbs">
+                    <p style="text-align: center; font-size: 28px; font-weight: 600; margin-top: 132px; color: white;">----------PROFILE----------</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br/>
+<br/>
+
+<div class="col-lg-3 col-md-3 col-sm-12 col-xs-2"></div>
+<div class="col-lg-6 col-md-6 col-sm-2 col-xs-10">
+    <div class="panel panel-default">
+        <div class="panel-heading" style="color: #00a661; font-size: 18px;">My Profile</div>
+        <div class="panel-body">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <img src="@imageUrl" class="img-thumbnail img-fluid" id="productImage" style="height: 50px; width: 50px;"/>
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                    @if (role.ToLower().Trim() == "Marriage Register".ToLower().Trim())
+                    {
+                        <a href="@Url.Action("MarriageRegisterProfile", "Users", new {pid = ViewBag.PersonalId})">View Profile</a>
+                    }
+                    else
+                    {
+                        <a href="@Url.Action("ProfileDetails", "Users", new {pid = ViewBag.PersonalId})">View Profile</a>
+                    }
+
+                    <p>Check how your profile appears to other users</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <img src="@imageUrl" class="img-thumbnail img-fluid" id="productImage" style="height: 50px; width: 50px;" />
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                    @if (role.ToLower().Trim() == "Marriage Register".ToLower().Trim())
+                    {
+                        <a href="@Url.Action("EditMarriageRegister", "Users")">Edit Profile</a>
+                    }
+                    else
+                    {
+                        <a href="@Url.Action("EditProfile", "Users")">Edit Profile</a>
+                    }
+
+                    <p>Make changes to detail information in your profile</p>
+                </div>
+
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                @if (role.ToLower().Trim() == "Marriage Register".ToLower().Trim())
+                {
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        <img src="@imageUrl" class="img-thumbnail img-fluid" id="productImage" style="height: 50px; width: 50px;"/>
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                        <a href="@Url.Action("MarriageRegisterDocument", "Users")">Update Documents</a>
+                        <p>Upload a new Profile Photo. This is the main photo of your profile</p>
+                    </div>
+                }
+                else
+                {
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        <img src="@imageUrl" class="img-thumbnail img-fluid" id="productImage" style="height: 50px; width: 50px;"/>
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                        <a href="@Url.Action("UploadPhoto", "Users")">Update Profile Photo</a>
+                        <p>Upload a new Profile Photo. This is the main photo of your profile</p>
+                    </div>
+                }
+                
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <img src="@imageUrl" class="img-thumbnail img-fluid" id="productImage" style="height: 50px; width: 50px;"/>
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                    <a href="@Url.Action("ProfileSettings", "Users")">Profile Settings</a>
+                    <p>Decide if we should show your phone number to others or deactivate profile</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-12 col-xs-2"></div>
+

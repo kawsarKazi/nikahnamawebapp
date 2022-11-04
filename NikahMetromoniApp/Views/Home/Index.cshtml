@@ -1,0 +1,303 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<link href="~/Content/style.css" rel="stylesheet" />
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+
+<div class="container-fluid">
+
+    <!-- Carousel container -->
+    <div id="my-pics" class="carousel" data-ride="carousel" style=" margin:auto;">
+
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#my-pics" data-slide-to="0" class="active"></li>
+            <li data-target="#my-pics" data-slide-to="1"></li>
+            <li data-target="#my-pics" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Content -->
+        <div class="carousel-inner" role="listbox">
+
+            <!-- Slide 1 -->
+            <div class="item active">
+                <img src="~/Content/images/666.jpg" alt="Sunset over beach" style="height: 500px;">
+
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="item">
+                <img src="~/Content/images/333.jpg" alt="Rob Roy Glacier" style="height: 500px;">
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="item">
+                <img src="~/Content/images/1111.jpg" alt="Longtail boats at Phi Phi" style="height: 500px;">
+            </div>
+
+        </div>
+        <!-- Previous/Next controls -->
+        <a class="left carousel-control" href="#my-pics" role="button" data-slide="prev">
+            <span class="icon-prev" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#my-pics" role="button" data-slide="next">
+            <span class="icon-next" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+<br />
+<br />
+
+<section class="my 5">
+
+    <div class="py-5">
+        <h2 class="text-center"> About Us</h2>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <img src="/Content/images/banner1.jpg" class="img-fluid aboutimg" style="width: 100%; height: 300px;">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <h3 class="display-6">Nikahnama</h3>
+                <p class="py-0">The Nikahnama Registrar is the name of an office appointed by the government,(popularly known as the Kazi) has the authority to register marriages in Bangladesh.Nikahnama Registrar, appointed by the government under the Muslim Marriages and Divorces (Registration) Act, 1974, and rules framed there under, the Muslim Marriages and Divorces (Rules), 1975. Each Kazi is appointed to a defined locality where their job is registration of Muslim marriages and divorces within the given area. According to a recent High Court decision, Nikahnama Registrars are "public" servants </p>
+                <a href="@Url.Action("About","Home")" class="btn btn-success"> Check more</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<br />
+<br />
+
+@*<section class="my 5">
+
+    <div class="py-5">
+        <h2 class="text-center">Servicess</h2>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="panel panel-default">
+                    <img class="panel-heading" src="~/Content/images/666.jpg" alt="Card image" style="width: 100%; height: 400px;">
+                    <div class="panel-body">
+                        <h4>Find Partner</h4>
+                        <p class="panel-footer">Marriage certificate is an official statement that two people are married. In most jurisdictions, a marriage certificate is issued by a government official only after the civil registration of the marriage.</p>
+                        <a href="@Url.Action("Search","Users")" class="btn btn-success">See more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="panel panel-default">
+                    <img class="panel-heading" src="~/Content/images/333.jpg" alt="Card image" style="width: 100%; height: 400px;">
+                    <div class="panel-body">
+                        <h4>Find Marriage Registrar</h4>
+                        <p class="panel-footer">Divorce canceling or reorganizing of the legal duties and responsibilities of marriage, thus dissolving the bonds of matrimony between a married couple under the rule of law of the particular country or state. </p>
+                        <a href="@Url.Action("Search","Users", new {userRole= "Marriage Register"})" class="btn btn-success">See more</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="panel panel-default">
+                    <img class="panel-heading" src="~/Content/images/1111.jpg" alt="Card image" style="width: 100%; height: 400px;">
+                    <div class="panel-body">
+                        <h4>Legal Advice</h4>
+                        <p class="panel-footer">Legal advice is the giving of a professional or formal opinion regarding the substance or procedure of the law in relation to a particular factual situation. <br /> Contact for Marriage,Divorce & any legal advice </p>
+                        <a href="@Url.Action("LegalAdvice","Home")" class="btn btn-success">See more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<br />
+<br />*@
+
+<section class="my 5">
+
+    <div class="py-5">
+        <h2 class="text-center">Galary</h2>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <img src="~/Content/images/1112.jpg" alt="" style="width: 100%; height: 400px;">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <img src="~/Content/images/666.jpg" alt="" style="width: 100%; height: 400px;">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <img src="~/Content/images/444.jpg" alt="" style="width: 100%; height: 400px;">
+            </div>
+        </div>
+        <div class="row" style="margin-top: 15px;">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <img src="~/Content/images/borkone.jpg" alt="" style="width: 100%; height: 400px;">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <img src="~/Content/images/222.jpg" alt="" style="width: 100%; height: 400px;">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <img src="~/Content/images/777.jpg" alt="" style="width: 100%; height: 400px;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<br />
+<br />
+
+
+<section class="my 5">
+
+    <div class="py-5">
+        <h2 class="text-center">Marriage Registers</h2>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="panel panel-default">
+                    <img class="panel-heading" src="~/Content/images/habib1.jpg" alt="Card image" style="width: 95%; height: 400px;">
+                    <div class="panel-body">
+                        <h4>Md. Masum Billah</h4>
+                        <p> Phone: 01900000000</p>
+                        <a href="https://www.facebook.com" class="btn btn-success">See Profile</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="panel panel-default">
+                    <img class="panel-heading" src="~/Content/images/habib1.jpg" alt="Card image" style="width: 95%; height: 400px;">
+                    <div class="panel-body">
+                        <h4 class="card-title">Md. Kawsar</h4>
+                        <p class="card-text">Phone: 01800000000 </p>
+                        <a href="https://www.facebook.com" class="btn btn-success">See Profile</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="panel panel-default">
+                    <img class="panel-heading" src="~/Content/images/habib1.jpg" alt="Card image" style="width: 95%; height: 400px;">
+                    <div class="panel-body">
+                        <h4 class="card-title">Habibullah</h4>
+                        <p class="card-text"> Phone: 01500000000</p>
+                        <a href="https://www.facebook.com" class="btn btn-success">See Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<br />
+<br />
+
+
+<section class="my 5">
+
+    <div class="py-5">
+        <h2 class="text-center">Office information</h2>
+    </div>
+    <br />
+    <br />
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-12">
+                <img src="~/Content/images/contact3.jpg" class="img-fluid aboutimg">
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+                <h3 class="display-6">Address</h3>
+                <p class="py-3">#21, Bondhar Kazi Office <br />Phone Number: 01955923836, 01816276707<br /> mail: kazikawsar1995@gamil.com Office: Bondhar Bus stand, Narayanganj City Corporation  </p>
+                <a href="about.html" class="btn btn-success"> Check more</a>
+            </div>
+        </div>
+    </div>
+</section>
+<br />
+<br />
+<br />
+<div class="footer-dark">
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="@Url.Action("Search","Users", new {userRole= "Marriage Register"})">Find Marriage Registrar</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="@Url.Action("About")">About</a></li>
+                        <li><a href="@Url.Action("Contact")">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 item text">
+                    <h3>Nikahnama</h3>
+                    <p>The Nikahnama Registrar is the name of an office appointed by the government,(popularly known as the Kazi) has the authority to register marriages in Bangladesh</p>
+                </div>
+                <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+            </div>
+            <p class="copyright">Nikahnama © 2021</p>
+        </div>
+    </footer>
+</div>
+
+@*<section class="my 5">
+
+        <div class="py-5">
+            <h2 class="text-center">Contact</h2>
+        </div>
+
+        <div class="w-50 m-auto">
+            <form action="userinfo.html" method="post">
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" name="user" autocomplete="off" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="text" name="email" autocomplete="off" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Phone Number</label>
+                    <input type="text" name="mobile" autocomplete="off" class="form-control">
+                </div>
+                <div class=" form-group">
+                    <label>Your Message</label>
+                    <textarea class="form-control" name="comments">
+                    </textarea>
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox"> Remember me
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-success">Submit</button>
+
+            </form>
+        </div>
+    </section>
+    <br />
+    <br />
+    <br />*@
+
+@section scripts
+{
+
+}

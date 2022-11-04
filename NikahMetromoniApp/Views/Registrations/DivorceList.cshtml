@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewBag.Title = "DivorceList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br/>
+<br/>
+<br />
+<div class="row">
+    <div class="col-md-12 col-sm-12">
+        <div class="panel panel-info">
+            <div class="panel-heading">Divorce List</div>
+            <div class="panel-body">
+                <div class="col-md-12 col-sm-12">
+                    <a class="btn btn-primary" href="@Url.Action("DivorceRegistration", "Registrations")"><i class="fa fa-plus-square-o" aria-hidden="true"></i> New Divorce Registration</a>
+                    <hr />
+                </div>
+                <div class="col-md-12 col-sm-12">
+                    <table id="infoTable" class="table table-bordered table-hover display">
+                        <thead>
+                            <tr>
+                                <th>Groom Name</th>
+                                <th>Groom Father</th>
+                                <th>Groom NID/Birth</th>
+                                <th>Bride Name</th>
+                                <th>Bride NID/Birth</th>
+                                <th>Volume No</th>
+                                <th>Page No</th>
+                                <th>Type</th>
+                                <th>Address</th>
+                                <th>Date</th>
+                                <th>Download</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts
+{
+    <script src="~/Scripts/Forms/divorce_list.js"></script>
+}
+
+
+

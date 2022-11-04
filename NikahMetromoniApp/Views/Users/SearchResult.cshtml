@@ -1,0 +1,447 @@
+﻿
+@{
+    ViewBag.Title = "SearchResult";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var defaultUrl = "/Content/images/default-thumbnail.jpg";
+}
+
+<style>
+    .tooltip {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black;
+    }
+
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 120px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px 0;
+            /* Position the tooltip */
+            position: absolute;
+            z-index: 1;
+            bottom: 100%;
+            left: 50%;
+            margin-left: -60px;
+        }
+
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+        }
+
+    .container {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: normal;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+        /* Hide the browser's default checkbox */
+        .container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            height: 0;
+            width: 0;
+        }
+
+    /* Create a custom checkbox */
+    .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 20px;
+        width: 20px;
+        /*background-color: #eee;*/
+        border: 1px solid #777;
+    }
+
+    /* On mouse-over, add a grey background color */
+    .container:hover input ~ .checkmark {
+        background-color: #ccc;
+    }
+
+    /* When the checkbox is checked, add a blue background */
+    .container input:checked ~ .checkmark {
+        background-color: #2196F3;
+    }
+
+    /* Create the checkmark/indicator (hidden when not checked) */
+    .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+
+    /* Show the checkmark when checked */
+    .container input:checked ~ .checkmark:after {
+        display: block;
+    }
+
+    /* Style the checkmark/indicator */
+    .container .checkmark:after {
+        left: 9px;
+        top: 5px;
+        width: 5px;
+        height: 10px;
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+</style>
+
+<link href="~/Scripts/Forms/slider.css" rel="stylesheet" />
+<div class="banner-style">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="breadcrumbs">
+                    <p style="text-align: center; font-size: 28px; font-weight: 600; margin-top: 132px; color: white;">----------RESULT----------</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br/>
+<br/>
+
+<div class="row">
+    <div class="col-lg-1 col-md-1"></div>
+    <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+        @if (ViewBag.MatchesProfile.Count > 0)
+        {
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Gender</div>
+                    <div class="panel-body">
+                        <label class="container radio">
+                            Male
+                            <input type="checkbox" name="GenderCheckbox" value="Male">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container radio">
+                            Female
+                            <input type="checkbox" name="GenderCheckbox" value="Female">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">Age</div>
+                    <div class="panel-body">
+                        <br />
+                        <br />
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div id="slider-range"></div>
+                                </div>
+                            </div>
+                            <div class="row slider-labels">
+                                <div class="col-xs-6 caption">
+                                    <strong>Min:</strong> <span id="slider-range-value1"></span>
+                                </div>
+                                <div class="col-xs-6 text-right caption">
+                                    <strong>Max:</strong> <span id="slider-range-value2"></span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <form>
+                                        <input type="hidden" name="min-value" value="">
+                                        <input type="hidden" name="max-value" value="">
+                                    </form>
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+              
+                <div class="panel panel-default">
+                    <div class="panel-heading">Religion</div>
+                    <div class="panel-body">
+                        <label class="container">
+                            Islam
+                            <input type="checkbox" name="ReligionCb" value="Islam">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container">
+                            Christian
+                            <input type="checkbox" name="ReligionCb" value="Christian">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container">
+                            Hinduism
+                            <input type="checkbox" name="ReligionCb" value="Hinduism">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container">
+                            Buddhism
+                            <input type="checkbox" name="ReligionCb" value="Buddhism">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container">
+                            Other
+                            <input type="checkbox" name="ReligionCb" value="Other">
+                            <span class="checkmark"></span>
+                        </label>
+
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">Marital Status</div>
+                    <div class="panel-body">
+                        <label class="container radio">
+                            Single
+                            <input type="checkbox" name="MaritalStatusCb" value="Single">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container radio">
+                            Widow
+                            <input type="checkbox" name="MaritalStatusCb" value="Widow">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container radio">
+                            Divorced
+                            <input type="checkbox" name="MaritalStatusCb" value="Divorced">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">Profession</div>
+                    <div class="panel-body">
+                        <label class="container radio">
+                            Not Working
+                            <input type="checkbox" name="ProfessionCb" value="Not Working">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container radio">
+                            Business
+                            <input type="checkbox" name="ProfessionCb" value="Business">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container radio">
+                            Private
+                            <input type="checkbox" name="ProfessionCb" value="Private">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container radio">
+                            Government
+                            <input type="checkbox" name="ProfessionCb" value="Government">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">Education</div>
+                    <div class="panel-body">
+                        <label class="container radio">
+                            SSC
+                            <input type="checkbox" name="EducationCb" value="SSC">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container radio">
+                            HSC
+                            <input type="checkbox" name="EducationCb" value="HSC">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container radio">
+                            BSc/Honnor's
+                            <input type="checkbox" name="EducationCb" value="BSc/Honnor's">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container radio">
+                            MBBS
+                            <input type="checkbox" name="EducationCb" value="MBBS">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container radio">
+                            MSc/Master's
+                            <input type="checkbox" name="EducationCb" value="MSc/Master's">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container radio">
+                            PhD
+                            <input type="checkbox" name="EducationCb" value="PhD">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">City</div>
+                    <div class="panel-body">
+                        <label class="container radio">
+                            Dhaka
+                            <input type="checkbox" name="CityCb" value="Dhaka">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container radio">
+                            Rajshahi
+                            <input type="checkbox" name="CityCb" value="Rajshahi">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container radio">
+                            Chittagong
+                            <input type="checkbox" name="CityCb" value="Chittagong">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container radio">
+                            Khulna
+                            <input type="checkbox" name="CityCb" value="Khulna">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container radio">
+                            Sylhet
+                            <input type="checkbox" name="CityCb" value="Sylhet">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container radio">
+                            Khulna
+                            <input type="checkbox" name="CityCb" value="Khulna">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container radio">
+                            Rangpur
+                            <input type="checkbox" name="CityCb" value="Rangpur">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container radio">
+                            Mymenshing
+                            <input type="checkbox" name="CityCb" value="Mymenshing">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-8 col-xs-8">
+                @foreach (var profile in ViewBag.MatchesProfile)
+                {
+                    var imageUrl = !string.IsNullOrEmpty(profile.ProfileUrl) ? profile.ProfileUrl : defaultUrl;
+                    <div class="row">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                                        <img src="@imageUrl" class="img-thumbnail img-fluid" id="productImage" height="125" width="105" />
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                        @*<p style="font-weight: 600; color: #777; font-size: 17px;">@profile.Name</p>*@
+                                        <br />
+                                        <br />
+                                        <div class="col-md-5 col-sm-5">
+                                            <p style="font-weight: 600; color: #777; font-size: 13px;">Age</p>
+                                            <p style="font-weight: 600; color: #777; font-size: 13px;">Gender</p>
+                                            <p style="font-weight: 600; color: #777; font-size: 13px;">Height</p>
+                                            <p style="font-weight: 600; color: #777; font-size: 13px;">Occupation</p>
+                                        </div>
+                                        <div class="col-md-7 col-sm-7">
+                                            <p style="color: #777; font-size: 13px;">@(string.IsNullOrEmpty(profile.Age) ? "-" : profile.Age)</p>
+                                            <p style="color: #777; font-size: 13px;">@(string.IsNullOrEmpty(profile.Gender) ? "-" : profile.Gender)</p>
+                                            <p style="color: #777; font-size: 13px;">@(string.IsNullOrEmpty(profile.Height) ? "-" : profile.Height)</p>
+                                            <p style="color: #777; font-size: 13px;">@(string.IsNullOrEmpty(profile.Occupation) ? "-" : profile.Occupation)</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                                        <br />
+                                        <br />
+                                        <div class="col-md-4 col-sm-4">
+                                            <p style="font-weight: 600; color: #777; font-size: 13px;">Religion</p>
+                                            <p style="font-weight: 600; color: #777; font-size: 13px;">Education</p>
+                                            <p style="font-weight: 600; color: #777; font-size: 13px;">City</p>
+                                            <p style="font-weight: 600; color: #777; font-size: 13px;">Country</p>
+                                        </div>
+                                        <div class="col-md-7 col-sm-7">
+                                            <p style="color: #777; font-size: 13px;">@(string.IsNullOrEmpty(profile.Religion) ? "-" : profile.Religion)</p>
+                                            <p style="color: #777; font-size: 13px;">@(string.IsNullOrEmpty(profile.Education) ? "-" : profile.Education)</p>
+                                            <p style="color: #777; font-size: 13px;">@(string.IsNullOrEmpty(profile.City) ? "-" : profile.City)</p>
+                                            <p style="color: #777; font-size: 13px;">@(string.IsNullOrEmpty(profile.Country) ? "-" : profile.Country)</p>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
+                                        <br />
+                                        <br />
+                                        <a href="@Url.Action("ProfileDetails","Users", new {pid=@profile.PersonalId})"><i class="fa fa-paper-plane-o fa-2x" title="View Profile" style="color: #777;"></i></a>
+                                        <br />
+                                        <br />
+                                        <a href="@Url.Action("Compose","MailBox", new {pid=@profile.PersonalId})"><i class="fa fa-envelope-o fa-2x" title="Send Email" style="color: #777;"></i></a>
+                                        <br />
+                                        <br />
+                                        
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12"></div>
+                                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                                        <div class="col-md-12 col-sm-12">
+                                            <p style="color: #777; font-size: 13px;">@profile.Bio</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                }
+            </div>
+        }
+        else
+        {
+            <p>Matches Profile Not Found</p>
+        }
+    </div>
+    <div class="col-lg-1 col-md-1"></div>
+
+</div>
+
+@section scripts
+{
+
+<script src="~/Scripts/Forms/slider.js"></script>
+    @*<script>
+        $("input:checkbox[name='GenderCheckbox']").on('click', function () {
+            // in the handler, 'this' refers to the box clicked on
+            var $box = $(this);
+            if ($box.is(":checked")) {
+                // the name of the box is retrieved using the .attr() method
+                // as it is assumed and expected to be immutable
+                var group = "input:checkbox[name='" + $box.attr("name") + "']";
+                // the checked state of the group/box on the other hand will change
+                // and the current value is retrieved using .prop() method
+                $(group).prop("checked", false);
+                $box.prop("checked", true);
+            } else {
+                $box.prop("checked", false);
+            }
+
+            var gender= $("input:checkbox[name='GenderCheckbox']").val();
+        });
+
+
+    </script>*@
+    
+}
+
+

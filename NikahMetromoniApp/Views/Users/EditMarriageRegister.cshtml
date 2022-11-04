@@ -1,0 +1,187 @@
+﻿@model NikahMetromoniApp.ViewModels.MarriageRegisterEditViewModel
+@{
+    ViewBag.Title = "EditMarriageRegister";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var model = ViewBag.Profile;
+    var firstName = model != null ? model.FirstName : "";
+    var lastName = model != null ? model.LastName : "";
+    var gender = model != null ? model.Gender : "";
+    var contactNo = model != null ? model.ContactNo : "";
+    var religion = model != null ? model.Religion : "";
+    var division = model != null ? model.DivisionName : "";
+    var city = model != null ? model.CityName : "";
+    var area = model != null ? model.AreaName : "";
+   
+}
+
+<div class="banner-style">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="breadcrumbs">
+                    <p style="text-align: center; font-size: 28px; font-weight: 600; margin-top: 132px; color: white;">----------EDIT PROFILE----------</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+<br />
+<div class="container">
+    @using (Html.BeginForm("EditMarriageRegister", "Users", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        <fieldset>
+            <div class="row">
+                <div class="col-lg-offset-2 col-md-offset-2 col-lg-8 col-md-8 col-sm-10 col-xs-12 col-lg-offset-2 col-md-offset-2">
+                    <div class="panel panel-default">
+                        <div class="panel-heading"><h4 class="panel-title" style="color: #00a661; font-size: 18px;">Edit Profile</h4></div>
+                        <div class="panel-body">
+                            <div class="row form-group">
+                                <label class="col-md-4 control-label" style="text-align: right">Name</label>
+                                <div class="col-md-3 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                        <input name="FirstName" placeholder="First Name" class="form-control" value="@firstName" type="text" required="required">
+                                    </div>
+                                </div>
+                                <div class="col-md-3 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                        <input name="LastName" placeholder="Last Name" class="form-control" type="text" value="@lastName" required="required">
+                                    </div>
+                                </div>
+                                <div class="col-md-4"></div>
+                            </div>
+                            <div class="row form-group">
+                                <label class="col-md-4 control-label" style="text-align: right">Gender</label>
+                                <div class="col-md-6 selectContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                                        <select name="Gender" class="form-control selectpicker" required="required">
+                                            <option value="">Select</option>
+                                            @if (gender == "Male")
+                                            {
+                                                <option value="Male" selected="selected">Male</option>
+                                                <option value="Female">Female</option>
+                                            }
+                                            else if (gender == "Female")
+                                            {
+                                                <option value="Male">Male</option>
+                                                <option value="Female" selected="selected">Female</option>
+                                            }
+                                            else
+                                            {
+                                                <option value="Male">Male</option>
+                                                <option value="Female">Female</option>
+                                            }
+
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row form-group ">
+                                <label class="col-md-4 control-label" style="text-align: right">Contact Number</label>
+                                <div class="col-md-6 selectContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+                                        <input name="ContactNo" placeholder="(+880)" class="form-control" type="text" value="@contactNo" required="required">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row form-group groom_div">
+                                <label class="col-md-4 control-label" style="text-align: right">Religion</label>
+                                <div class="col-md-6 selectContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                                        <select name="Religion" class="form-control selectpicker" required="required">
+                                            <option value="">Select</option>
+                                            <option value="Islam">Islam</option>
+                                            <option value="Christian">Christian</option>
+                                            <option value="Hinduism">Hinduism</option>
+                                            <option value="Buddhism">Buddhism</option>
+                                            <option value="Other">Other</option>
+                                            @if (!string.IsNullOrEmpty(religion))
+                                            {
+                                                <option value="@religion" selected="selected">@religion</option>
+                                            }
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row form-group location">
+                                <label class="col-md-4 control-label" style="text-align: right">Division</label>
+                                <div class="col-md-6 selectContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                                        @*@Html.DropDownListFor(model => model.DivisionId, null, "", new { @class = "form-control show-tick" })*@
+                                        <select name="DivisionName" class="form-control selectpicker">
+                                            <option value="">Select</option>
+                                            <option value="Dhaka">Dhaka</option>
+                                            <option value="Chittagong">Chittagong</option>
+                                            <option value="Sylhet">Sylhet</option>
+                                            @if (!string.IsNullOrEmpty(division))
+                                            {
+                                                <option value="@division" selected="selected">@division</option>
+                                            }
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row form-group location">
+                                <label class="col-md-4 control-label" style="text-align: right">City</label>
+                                <div class="col-md-6 selectContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                                        @* @Html.DropDownListFor(model => model.DistrictId, null, "", new { @class = "form-control show-tick" })*@
+                                        <select name="CityName" class="form-control selectpicker">
+                                            <option value="">Select</option>
+                                            <option value="Dhaka">Dhaka</option>
+                                            <option value="Chittagong">Chittagong</option>
+                                            <option value="Sylhet">Sylhet</option>
+                                            @if (!string.IsNullOrEmpty(city))
+                                            {
+                                                <option value="@city" selected="selected">@city</option>
+                                            }
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row form-group location">
+                                <label class="col-md-4 control-label" style="text-align: right">Area</label>
+                                <div class="col-md-6 selectContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                                        @*@Html.DropDownListFor(model => model.UpozilaId, null, "", new { @class = "form-control show-tick" })*@
+                                        <select name="AreaName" class="form-control selectpicker">
+                                            <option value="">Select</option>
+                                            <option value="Dhaka">Dhaka</option>
+                                            <option value="Chittagong">Chittagong</option>
+                                            <option value="Sylhet">Sylhet</option>
+                                            @if (!string.IsNullOrEmpty(area))
+                                            {
+                                                <option value="@area" selected="selected">@area</option>
+                                            }
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label"></label>
+                                <div class="col-md-6">
+                                    <p>@ViewBag.Message</p>
+                                    <br>
+                                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button type="submit" class="btn btn-warning">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspUpdate <span class="glyphicon glyphicon-send"></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+    }
+</div>

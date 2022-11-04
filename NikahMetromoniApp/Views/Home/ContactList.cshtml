@@ -1,0 +1,52 @@
+﻿@model NikahMetromoniApp.ViewModels.ContactViewModel
+@{
+    ViewBag.Title = "ContactList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="banner-style">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="breadcrumbs">
+                    <p style="text-align: center; font-size: 28px; font-weight: 600; margin-top: 132px; color: white;">----------Contact Requests----------</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+<div class="container">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <table class="table table-bordered table-condensed" style="width: 100%">
+                    <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Contact No</th>
+                        <th>Message</th>
+                    </tr>
+                    </thead>
+                    @if (Model != null && Model.ContactRequests.Count > 0)
+                    {
+                        <tbody>
+                        @foreach (var item in Model.ContactRequests)
+                        {
+                            <tr>
+                                <td>@item.Name</td>
+                                <td>@item.Email</td>
+                                <td>@item.Mobile</td>
+                                <td>@item.Message</td>
+                            </tr>
+                        }
+                        </tbody>
+                    }
+                    
+                </table>
+    </div>
+</div>
+

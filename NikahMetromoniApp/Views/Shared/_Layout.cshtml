@@ -1,0 +1,95 @@
+﻿@using Microsoft.AspNet.Identity
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="~/Content/DataTables/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <link href="~/Content/DataTables/css/rowReorder.dataTables.css" rel="stylesheet" />
+    <link href="~/Content/DataTables/css/responsive.dataTables.css" rel="stylesheet" />
+    <link href="~/Content/css/select2.min.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
+
+    <style>
+        .select2-selection__rendered {
+            line-height: 31px !important;
+        }
+
+        .select2-container .select2-selection--single {
+            height: 35px !important;
+        }
+
+        .select2-selection__arrow {
+            height: 34px !important;
+        }
+
+        .menu-item {
+            font-size: 20px;
+            font-weight: 500;
+            color: white !important;
+        }
+        .menu-item:hover {
+            border-bottom: 2px solid darkslateblue;
+
+        }
+        
+    </style>
+    
+
+</head>
+<body>
+    <div class="navbar navbar-default navbar-fixed-top heightClass" style=" background-color: #C6D6C6;">
+        @*<div class="container">*@
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+                <a href="@Url.Action("Index","Home")" class="navbar-brand">
+                    <h2>Nikahnama</h2>
+                    <!-- Logo Image -->
+                    @*<img src="/Content/images/2.png" width="45" alt="" >*@
+                    <!-- Logo Text -->
+
+                </a>
+
+                @*@Html.ActionLink("NIKAH MATRIMONY", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })*@
+            </div>
+            <div class="navbar-collapse collapse pull-right" style="margin-right: 30px !important; margin-top: 12px;">
+                <ul class="nav navbar-nav">
+                    <li class="menu-item" >@Html.ActionLink("Home", "Index", "Home", null, new { @style = "color:royalblue;" })</li>
+                    <li class="menu-item">@Html.ActionLink("About", "About", "Home", null, new { @style = "color:royalblue;" })</li>
+                    <li class="menu-item">@Html.ActionLink("Contact", "Contact", "Home", null, new { @style = "color:royalblue;" })</li>
+                    <li class="menu-item">@Html.ActionLink("Search", "Search", "Users",new { userRole= "Marriage Register" }, new { @style = "color:royalblue;" })</li>
+                    @if(User.Identity.GetUserId() != null)
+                    {
+                        <li class="menu-item">@Html.ActionLink("Marriage Registration", "MarriageRegistration", "Registrations", null, new { @style = "color:royalblue;" })</li>
+                        <li class="menu-item">@Html.ActionLink("Divorce Registration", "DivorceRegistration", "Registrations", null, new { @style = "color:royalblue;" })</li>
+                    }
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        @*</div>*@
+    </div>
+<div class="body-content">
+    @RenderBody()
+    <br/>
+</div>
+   
+
+
+@Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+<script src="~/Scripts/Site.js"></script>
+<script src="~/Scripts/DataTables/jquery.dataTables.min.js"></script>
+<script src="~/Scripts/DataTables/dataTables.rowReorder.js"></script>
+<script src="~/Scripts/DataTables/dataTables.responsive.js"></script>
+<script src="~/Scripts/select2.min.js"></script>
+</body>
+</html>

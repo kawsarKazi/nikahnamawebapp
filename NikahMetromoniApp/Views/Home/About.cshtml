@@ -1,0 +1,69 @@
+﻿@model NikahMetromoniApp.Models.SearchViewModel
+@{
+    ViewBag.Title = "About";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="banner-style">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="breadcrumbs">
+                    <p style="text-align: center; font-size: 28px; font-weight: 600; margin-top: 132px; color: white;">----------ABOUT US----------</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br/>
+<br/>
+<section class="my 5">
+
+    <div class="py-5">
+        <h2 class="text-center"> About Us</h2>
+        <br/>
+    </div>
+    <div class="container-fluid">	
+        <div class="row"> 
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <img src="/Content/images/banner1.jpg" class="img-fluid aboutimg" style="width: 100%; height: 300px;">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <p style="font-size: 15px;">The Nikahnama Registrar is the name of an office appointed by the government,(popularly known as the Kazi) has the authority to register marriages in Bangladesh.Nikahnama Registrar, appointed by the government under the Muslim Marriages and Divorces (Registration) Act, 1974, and rules framed there under, the Muslim Marriages and Divorces (Rules), 1975. Each Kazi is appointed to a defined locality where their job is registration of Muslim marriages and divorces within the given area. According to a recent High Court decision, Nikahnama Registrars are "public" servants </p>
+                
+            </div>
+        </div>
+	 
+    </div>
+    <br/>
+    <br/>
+</section>
+<div class="footer-dark" >
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="@Url.Action("Search","Users")">Find Partner</a></li>
+                        <li><a href="@Url.Action("Search","Users", new {userRole= "Marriage Register"})">Find Marriage Registrar</a></li>
+                        <li><a href="#">Legal Advice</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="@Url.Action("About")">About</a></li>
+                        <li><a href="@Url.Action("Contact")">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 item text">
+                    <h3>Company Name</h3>
+                    <p>The Nikahnama Registrar is the name of an office appointed by the government,(popularly known as the Kazi) has the authority to register marriages in Bangladesh</p>
+                </div>
+                <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+            </div>
+            <p class="copyright">Nikahnama © 2022</p>
+        </div>
+    </footer>
+</div>
